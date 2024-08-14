@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'clockFont';
+    src: url('CursedTimerUlil.ttf');
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+h3 {
+    width: 149px;
+    height: 36px;
+    margin-top: 68px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    color: #EEEEEE;
+
+}
+
+.score-section {
+    margin-top: -60px;
+}
+
+.score-board {
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.score-board p {
+    width: 117px;
+    height: 120px;
+    top: 125px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'clockFont';
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    color: #F94F6D;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.points-added{
+    width: 155px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #1B244A;
+}
+
+.points-added button {
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-family: 'clockFont';
+    margin-left: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
